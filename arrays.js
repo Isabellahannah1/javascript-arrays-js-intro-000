@@ -38,6 +38,6 @@ function destructivelyRemoveElementFromEndOfArray(array){
 }
 
 function removeElementFromEndOfArray(array){
-  chocolateBars.slice(0, chocolateBars.length - 1);
-  return chocolateBars;
+  array.slice(0, array.length - 1);
+  return array;
 }
